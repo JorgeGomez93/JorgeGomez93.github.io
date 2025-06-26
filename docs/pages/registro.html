@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro | TuBoliranaDigital</title>
+    <link rel="shortcut icon" href="../assets/icon/rana.webp" />
+    <link rel="stylesheet" href="../styles/variables.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/registro.css" />
+  </head>
+  <body>
+    <div id="navbar-container"></div>
+
+    <main class="ventana-formulario" id="ventana-formulario">
+      <section class="form-container">
+        <h1>Registro</h1>
+        <form action="/registrar-usuario" name="formulario-registro">
+          <!--Elementos del formulario-->
+          <!-- <label for="name">Nombre:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Nombre"
+            required
+          />
+
+          <label for="apellido">Apellido:</label>
+          <input
+            type="text"
+            name="apellido"
+            id="apellido"
+            placeholder="Apellido"
+            required
+          /> -->
+
+          <label for="email">Correo electronico:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Correo electronico"
+            required
+          />
+
+          <!-- <label for="movil">Telefono:</label>
+          <input
+            type="tel"
+            name="movil"
+            id="movil"
+            placeholder="Telefono"
+            required
+          /> -->
+
+          <label for="password">Contraseña:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Contraseña"
+            required
+          />
+
+          <label for="password_confirm">Confirmar contraseña:</label>
+          <input
+            type="password"
+            name="password_confirm"
+            id="password_confirm"
+            placeholder="Repetir contraseña"
+            required
+          />
+
+          <label for="username">Nombre de usuario:</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Apodo/Username"
+            required
+          />
+
+          <input type="submit" value="Registrarme" />
+        </form>
+      </section>
+    </main>
+    <!-- Mensaje de sitio en construcción tipo pop-up -->
+    <div class="popup-construccion">
+      <div class="popup-contenido">
+        <h2>🚧 Sitio en construcción 🚧</h2>
+        <h2>¡Hola David! 👋</h2>
+        <p>
+          ¡Gracias por tu interés en formar parte de
+          <strong>TuBoliranaDigital</strong>!<br />
+          Esta sección de <strong>registro</strong> aún está en desarrollo y
+          pronto estará disponible.<br /><br />
+          <strong
+            >Mientras tanto, puedes volver a la página de juego e iniciar sesión
+            usando cualquier correo y contraseña.</strong
+          ><br />
+          <em
+            >Recuerda: esta es una versión beta, no necesitas estar registrado
+            para disfrutar del juego.</em
+          >
+        </p>
+        <button onclick="window.location.href='play.html'">
+          Volver a Jugar
+        </button>
+      </div>
+    </div>
+    <footer>
+      <div id="footer-container"></div>
+    </footer>
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>
